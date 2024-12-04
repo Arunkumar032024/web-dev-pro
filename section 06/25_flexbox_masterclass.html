@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox MasterClass</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <p class="parent-property">Parent Property</p>
+      <div class="parent-property-div">
+        <p class="parent-property-name">1&period; flex-direction</p>
+        <div class="parent-property-flex-div-parent">
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">
+              1&period;1 row &lpar;default&rpar;
+            </p>
+            <div class="flex-container">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+            </div>
+          </div>
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">1&period;2 row&hyphen;reverse</p>
+            <div class="flex-container" style="flex-direction: row-reverse">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+            </div>
+          </div>
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">1&period;3 column</p>
+            <div class="flex-container" style="flex-direction: column">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+            </div>
+          </div>
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">
+              1&period;4 column&hyphen;reverse
+            </p>
+            <div class="flex-container" style="flex-direction: column-reverse">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parent-property-div">
+        <p class="parent-property-name">2&period; flex-wrap</p>
+        <div class="parent-property-flex-div-parent">
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">1&period;1 wrap</p>
+            <div class="flex-container" style="flex-wrap: wrap">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+              <div class="box box-1">6</div>
+              <div class="box box-2">7</div>
+              <div class="box box-3">8</div>
+              <div class="box box-4">9</div>
+              <div class="box box-5">10</div>
+            </div>
+          </div>
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">1&period;2 nowrap</p>
+            <div class="flex-container" style="flex-wrap: nowrap">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+              <div class="box box-1">6</div>
+              <div class="box box-2">7</div>
+              <div class="box box-3">8</div>
+              <div class="box box-4">9</div>
+              <div class="box box-5">10</div>
+            </div>
+          </div>
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">1&period;3 wrap&hyphen;reverse</p>
+            <div class="flex-container" style="flex-wrap: wrap-reverse">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+              <div class="box box-1">6</div>
+              <div class="box box-2">7</div>
+              <div class="box box-3">8</div>
+              <div class="box box-4">9</div>
+              <div class="box box-5">10</div>
+            </div>
+          </div>
+          <div class="parent-property-flex-div">
+            <p class="parent-property-value">1&period;4 row wrap</p>
+            <div class="flex-container" style="flex-wrap: row wrap">
+              <div class="box box-1">1</div>
+              <div class="box box-2">2</div>
+              <div class="box box-3">3</div>
+              <div class="box box-4">4</div>
+              <div class="box box-5">5</div>
+              <div class="box box-1">6</div>
+              <div class="box box-2">7</div>
+              <div class="box box-3">8</div>
+              <div class="box box-4">9</div>
+              <div class="box box-5">10</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="child">
+      <p class="child-property">Child Property</p>
+    </div>
+  </body>
 </html>

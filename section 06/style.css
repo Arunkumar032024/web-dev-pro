@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 8px;
+}
+
+.parent,
+.child {
+  border: 1px solid black;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.parent-property,
+.child-property {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.parent-property-div,
+.child-property-div {
+  border: 1px solid black;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.parent-property-name,
+.child-property-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.parent-property-flex-div-parent,
+.parent-property-flex-div-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.parent-property-flex-div,
+.child-property-flex-div {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.parent-property-flex-div,
+.child-property-flex-div {
+  height: calc(100vh / 3);
+}
+
+.parent-property-value,
+.child-property-value {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.box-1 {
+  background-color: red;
+}
+
+.box-2 {
+  background-color: green;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+.box-4 {
+  background-color: black;
+}
+
+.box-5 {
+  background-color: brown;
+}
